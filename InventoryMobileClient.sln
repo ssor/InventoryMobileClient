@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryMobileClient", "InventoryMobileClient\InventoryMobileClient.csproj", "{D7AB102B-F0EC-40E3-AFB8-FF324D57AF66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DAFEBC0A-C1F1-4B8A-8DCF-45FE9C08AD0B} = {DAFEBC0A-C1F1-4B8A-8DCF-45FE9C08AD0B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastJSONCF", "fastJSONCF\fastJSONCF.csproj", "{DAFEBC0A-C1F1-4B8A-8DCF-45FE9C08AD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryWinCEClient", "SmartDeviceProject2\InventoryWinCEClient.csproj", "{32FD2225-1E4B-4727-BC67-B5BC38E78F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7AB102B-F0EC-40E3-AFB8-FF324D57AF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AB102B-F0EC-40E3-AFB8-FF324D57AF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AB102B-F0EC-40E3-AFB8-FF324D57AF66}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D7AB102B-F0EC-40E3-AFB8-FF324D57AF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AB102B-F0EC-40E3-AFB8-FF324D57AF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AB102B-F0EC-40E3-AFB8-FF324D57AF66}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DAFEBC0A-C1F1-4B8A-8DCF-45FE9C08AD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFEBC0A-C1F1-4B8A-8DCF-45FE9C08AD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFEBC0A-C1F1-4B8A-8DCF-45FE9C08AD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFEBC0A-C1F1-4B8A-8DCF-45FE9C08AD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FD2225-1E4B-4727-BC67-B5BC38E78F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FD2225-1E4B-4727-BC67-B5BC38E78F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FD2225-1E4B-4727-BC67-B5BC38E78F24}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{32FD2225-1E4B-4727-BC67-B5BC38E78F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FD2225-1E4B-4727-BC67-B5BC38E78F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FD2225-1E4B-4727-BC67-B5BC38E78F24}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
